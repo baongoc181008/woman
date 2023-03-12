@@ -1,0 +1,198 @@
+ :root {
+    --light : #d5bdaf;
+ }
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+body {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 9999999;
+}
+.navbar a {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+ }
+ .navbar i {
+  color: azure;
+  size: 5px;
+  
+ }
+ 
+ .link {
+    font-size: 16px;
+    color: #457b9d;
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 46px;
+    padding: 0 24px;
+    text-decoration: none;
+ }
+
+ .dropdown {
+  height: 46px;
+ }
+
+.dropdown:hover .subnav {
+  display: block;
+ }
+ .link:hover {
+   background-color:#d6ccc2;
+   color:black ;
+   list-style: none;
+ }
+.dropdown i {
+  color: white;
+  size: 5px;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: #457b9d;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+  background: #457b9d; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: #457b9d;}
+ 
+ .subnav {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.a:hover i {
+size: 20px;
+}
+
+ .subnav li {
+  background-color: white;
+  display: block;
+  list-style: none;
+
+  }
+  
+.subnav a {
+      color: black;
+      line-height: 39px;
+      padding-left: 12px;
+      width: 100%;
+      text-decoration: none;
+  }
+.slides {
+  position: relative;
+}
+
+.show {
+  display: flex !important;
+}
+
+.slides .subcontent {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+  height: 500px;
+  background-color: #edede9;
+  padding: 20px;
+}
+.slides .subcontent img {
+  width: 40%;
+  object-fit: cover;
+  margin-right: 20px;
+  height: 100%;
+}
+.slides .subcontent p {
+  text-align: justify;
+}
+.slide {
+     width: 100%;
+     height: 100vh; 
+     object-fit: cover;
+ }
+
+ /*Feminism*/
+ #Feminism {
+   width: 800px;
+   margin: 0 auto;
+   padding: 64px 16px 112px;
+ }
+.Tittle {
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+#Feminism p{
+  text-align: justify center;
+  font-size: 17px;
+}
+
+/*Woman*/
+.Woman {
+    width: 100%;
+    padding: 64px 16px 112px;
+    background-color: #d5bdaf; 
+}
+
+.Tittle {
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+#Woman p {
+  text-align: justify center;
+  font-size: 17px;
+}
+
+
+#footer{
+  padding: 64px 16px;
+  text-align: center;
+}
+
+#footer .socials-list{
+  color: black;
+  size: 30px;
+}
+ 
+#footer .copyright{
+  color: black;
+  size: 20px;
+}
+
+
+
